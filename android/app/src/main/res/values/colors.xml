@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- iParental Brand Colors -->
+    <color name="primary_blue">#4285F4</color>
+    <color name="primary_purple">#8B5CF6</color>
+    <color name="success_green">#34A853</color>
+    
+    <!-- App Theme Colors -->
+    <color name="splash_background">#121212</color>
+    <color name="background_primary">#121212</color>
+    <color name="background_secondary">#1E1E1E</color>
+    <color name="text_primary">#E0E0E0</color>
+    <color name="text_secondary">#A0A0A0</color>
+    
+    <!-- Status Bar -->
+    <color name="status_bar">#000000</color>
+</resources>

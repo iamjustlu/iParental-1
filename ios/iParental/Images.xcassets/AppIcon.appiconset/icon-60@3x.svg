@@ -1,0 +1,50 @@
+
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4285F4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield background -->
+  <path d="M22.5 30 
+           Q22.5 22.5 45 22.5
+           L135 22.5
+           Q157.5 22.5 157.5 30
+           L157.5 90
+           Q157.5 150 90 157.5
+           Q22.5 150 22.5 90
+           Z" 
+        fill="url(#shieldGradient)" 
+        stroke="none"/>
+  
+  <!-- Inner shield -->
+  <path d="M30 45 
+           Q30 36 60 36
+           L120 36
+           Q150 36 150 45
+           L150 90
+           Q150 135 90 144
+           Q30 135 30 90
+           Z" 
+        fill="#E8E8E8" 
+        opacity="0.9"/>
+  
+  <!-- Family silhouettes -->
+  <!-- Parent figure -->
+  <circle cx="72" cy="81" r="9" fill="#4285F4"/>
+  <ellipse cx="72" cy="108" rx="15" ry="22.5" fill="#4285F4"/>
+  
+  <!-- Child figure -->
+  <circle cx="108" cy="90" r="7.2" fill="#0EA5E9"/>
+  <ellipse cx="108" cy="111.6" rx="12" ry="18" fill="#0EA5E9"/>
+  
+  <!-- Check mark (bottom right) -->
+  <circle cx="144" cy="144" r="22.5" fill="#34A853"/>
+  <path d="M135 144 L140.4 149.4 L153 138.6" 
+        stroke="white" 
+        stroke-width="2.25" 
+        fill="none" 
+        stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,50 @@
+
+<svg width="144" height="144" viewBox="0 0 144 144" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4285F4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield background -->
+  <path d="M18 24 
+           Q18 18 36 18
+           L108 18
+           Q126 18 126 24
+           L126 72
+           Q126 120 72 126
+           Q18 120 18 72
+           Z" 
+        fill="url(#shieldGradient)" 
+        stroke="none"/>
+  
+  <!-- Inner shield -->
+  <path d="M24 36 
+           Q24 28.8 48 28.8
+           L96 28.8
+           Q120 28.8 120 36
+           L120 72
+           Q120 108 72 115.2
+           Q24 108 24 72
+           Z" 
+        fill="#E8E8E8" 
+        opacity="0.9"/>
+  
+  <!-- Family silhouettes -->
+  <!-- Parent figure -->
+  <circle cx="57.6" cy="64.8" r="7.2" fill="#4285F4"/>
+  <ellipse cx="57.6" cy="86.39999999999999" rx="12" ry="18" fill="#4285F4"/>
+  
+  <!-- Child figure -->
+  <circle cx="86.39999999999999" cy="72" r="5.76" fill="#0EA5E9"/>
+  <ellipse cx="86.39999999999999" cy="89.28" rx="9.6" ry="14.4" fill="#0EA5E9"/>
+  
+  <!-- Check mark (bottom right) -->
+  <circle cx="115.2" cy="115.2" r="18" fill="#34A853"/>
+  <path d="M108 115.2 L112.32000000000001 119.52 L122.39999999999999 110.88" 
+        stroke="white" 
+        stroke-width="1.8" 
+        fill="none" 
+        stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,13 @@
+{
+  "name": "iParental",
+  "displayName": "iParental",
+  "description": "Family Digital Wellbeing & Parental Control App",
+  "version": "1.0.0",
+  "bundleId": "com.neotechnologies.iparental",
+  "packageName": "com.neotechnologies.iparental",
+  "orientation": "portrait",
+  "privacy": "public",
+  "platforms": ["ios", "android"],
+  "primaryColor": "#8B5CF6",
+  "backgroundColor": "#121212"
+}
